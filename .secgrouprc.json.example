@@ -1,0 +1,21 @@
+{
+  "secret": {
+    "secretId": "<secretId>",
+    "secretKey": "<secretKey>"
+  },
+  "options": {
+    "region": "ap-shanghai",
+    "securityGroupId": "<securityGroupId>",
+    "prefix": "auto-tools"
+  },
+  "wanIp": [
+    {
+      "port": 22,
+      "description": "家庭网络访问 SSH"
+    },
+    {
+      "port": 8080,
+      "description": "家庭网络访问 XXX"
+    }
+  ]
+}

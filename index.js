@@ -1,4 +1,4 @@
-require("@babel/register")({
-  extensions: [".ts"],
+require('@babel/register')({
+  extensions: ['.ts'],
 });
-require("./src/index");
+require('./src/config');
