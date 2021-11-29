@@ -27,6 +27,7 @@ export default async (hosts: StunHosts = defaultHosts): Promise<string> => {
       });
       break;
     } catch (err) {
+      // eslint-disable-next-line no-console
       console.log('[fetchPublicIp] silence err', addr, err);
     }
   }
